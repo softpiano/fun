@@ -1,0 +1,7 @@
+REM AUTHOR -n00l-
+
+DELAY 1000
+GUI r
+DELAY 1000
+powershell.exe -nop -win hidden -c "Add-Type -AssemblyName System.speech; $synth = New-Object System.Speech.Synthesis.SpeechSynthesizer; $synth.Speak('Now. Listen closely. At this very moment you are being hacked. Motherfucker. Peace. I am out.')
+ENTER
